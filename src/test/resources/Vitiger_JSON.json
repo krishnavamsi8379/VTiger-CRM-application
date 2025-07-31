@@ -1,0 +1,8 @@
+{
+"browser" : "chrome",
+"url" : "http://localhost:8888/index.php",
+"username" : "admin",
+"password" : "admin",
+"timeouts"=10,
+
+}

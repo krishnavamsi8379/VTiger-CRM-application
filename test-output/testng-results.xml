@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Suite Execution started - Configure the Reports]]>
+    </line>
+    <line>
+      <![CDATA[createNewOrgTest Test Execution started]]>
+    </line>
+    <line>
+      <![CDATA[create ORG pass]]>
+    </line>
+    <line>
+      <![CDATA[createNewOrgTest Test Execution Success]]>
+    </line>
+    <line>
+      <![CDATA[createOrgWithIndustryType Test Execution started]]>
+    </line>
+    <line>
+      <![CDATA[Create Org with Type and Industry is pass-(Org name)]]>
+    </line>
+    <line>
+      <![CDATA[Create Org with Type and Industry is pass-(Industry DD)]]>
+    </line>
+    <line>
+      <![CDATA[Create Org with Type and Industry is pass-(Type DD)]]>
+    </line>
+    <line>
+      <![CDATA[createOrgWithIndustryType Test Execution Success]]>
+    </line>
+    <line>
+      <![CDATA[createOrgWithPhoneNum Test Execution started]]>
+    </line>
+    <line>
+      <![CDATA[Create ORG pass - ph number]]>
+    </line>
+    <line>
+      <![CDATA[Create Org with Phone number is pass]]>
+    </line>
+    <line>
+      <![CDATA[createOrgWithPhoneNum Test Execution Success]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-07-31T15:31:18 IST" name="Default suite" finished-at="2025-07-31T15:34:11 IST" duration-ms="173097">
+    <groups>
+      <group name="regression">
+        <method signature="Organization_Scenarios.createOrgWithIndustryType()[pri:0, instance:Organization_Module.Organization_Scenarios@5b8dfcc1]" name="createOrgWithIndustryType" class="Organization_Module.Organization_Scenarios"/>
+        <method signature="Organization_Scenarios.createOrgWithPhoneNum()[pri:0, instance:Organization_Module.Organization_Scenarios@5b8dfcc1]" name="createOrgWithPhoneNum" class="Organization_Module.Organization_Scenarios"/>
+      </group> <!-- regression -->
+      <group name="Smoke">
+        <method signature="Organization_Scenarios.createNewOrgTest()[pri:0, instance:Organization_Module.Organization_Scenarios@5b8dfcc1]" name="createNewOrgTest" class="Organization_Module.Organization_Scenarios"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2025-07-31T15:31:18 IST" name="Default test" finished-at="2025-07-31T15:34:11 IST" duration-ms="173097">
+      <class name="Organization_Module.Organization_Scenarios">
+        <test-method is-config="true" signature="connectToDatabase()[pri:0, instance:Organization_Module.Organization_Scenarios@5b8dfcc1]" started-at="2025-07-31T15:31:17 IST" name="connectToDatabase" finished-at="2025-07-31T15:31:18 IST" duration-ms="1344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- connectToDatabase -->
+        <test-method is-config="true" signature="conParallel()[pri:0, instance:Organization_Module.Organization_Scenarios@5b8dfcc1]" started-at="2025-07-31T15:31:18 IST" name="conParallel" finished-at="2025-07-31T15:31:18 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- conParallel -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:Organization_Module.Organization_Scenarios@5b8dfcc1]" started-at="2025-07-31T15:31:18 IST" name="launchBrowser" finished-at="2025-07-31T15:31:24 IST" duration-ms="6199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:Organization_Module.Organization_Scenarios@5b8dfcc1]" started-at="2025-07-31T15:31:24 IST" name="login" finished-at="2025-07-31T15:31:34 IST" duration-ms="9519" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="createNewOrgTest()[pri:0, instance:Organization_Module.Organization_Scenarios@5b8dfcc1]" started-at="2025-07-31T15:31:34 IST" name="createNewOrgTest" finished-at="2025-07-31T15:32:16 IST" duration-ms="41821" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[createNewOrgTest Test Execution started]]>
+            </line>
+            <line>
+              <![CDATA[create ORG pass]]>
+            </line>
+            <line>
+              <![CDATA[createNewOrgTest Test Execution Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createNewOrgTest -->
+        <test-method is-config="true" signature="logOut()[pri:0, instance:Organization_Module.Organization_Scenarios@5b8dfcc1]" started-at="2025-07-31T15:32:16 IST" name="logOut" finished-at="2025-07-31T15:32:23 IST" duration-ms="7282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method is-config="true" signature="login()[pri:0, instance:Organization_Module.Organization_Scenarios@5b8dfcc1]" started-at="2025-07-31T15:32:23 IST" name="login" finished-at="2025-07-31T15:32:32 IST" duration-ms="8766" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="createOrgWithIndustryType()[pri:0, instance:Organization_Module.Organization_Scenarios@5b8dfcc1]" started-at="2025-07-31T15:32:32 IST" name="createOrgWithIndustryType" finished-at="2025-07-31T15:33:10 IST" duration-ms="37810" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[createOrgWithIndustryType Test Execution started]]>
+            </line>
+            <line>
+              <![CDATA[Create Org with Type and Industry is pass-(Org name)]]>
+            </line>
+            <line>
+              <![CDATA[Create Org with Type and Industry is pass-(Industry DD)]]>
+            </line>
+            <line>
+              <![CDATA[Create Org with Type and Industry is pass-(Type DD)]]>
+            </line>
+            <line>
+              <![CDATA[createOrgWithIndustryType Test Execution Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createOrgWithIndustryType -->
+        <test-method is-config="true" signature="logOut()[pri:0, instance:Organization_Module.Organization_Scenarios@5b8dfcc1]" started-at="2025-07-31T15:33:10 IST" name="logOut" finished-at="2025-07-31T15:33:17 IST" duration-ms="7065" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method is-config="true" signature="login()[pri:0, instance:Organization_Module.Organization_Scenarios@5b8dfcc1]" started-at="2025-07-31T15:33:17 IST" name="login" finished-at="2025-07-31T15:33:25 IST" duration-ms="8850" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="createOrgWithPhoneNum()[pri:0, instance:Organization_Module.Organization_Scenarios@5b8dfcc1]" started-at="2025-07-31T15:33:25 IST" name="createOrgWithPhoneNum" finished-at="2025-07-31T15:34:02 IST" duration-ms="36975" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[createOrgWithPhoneNum Test Execution started]]>
+            </line>
+            <line>
+              <![CDATA[Create ORG pass - ph number]]>
+            </line>
+            <line>
+              <![CDATA[Create Org with Phone number is pass]]>
+            </line>
+            <line>
+              <![CDATA[createOrgWithPhoneNum Test Execution Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createOrgWithPhoneNum -->
+        <test-method is-config="true" signature="logOut()[pri:0, instance:Organization_Module.Organization_Scenarios@5b8dfcc1]" started-at="2025-07-31T15:34:02 IST" name="logOut" finished-at="2025-07-31T15:34:10 IST" duration-ms="7339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Organization_Module.Organization_Scenarios@5b8dfcc1]" started-at="2025-07-31T15:34:10 IST" name="closeBrowser" finished-at="2025-07-31T15:34:11 IST" duration-ms="1360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="closeConParallel()[pri:0, instance:Organization_Module.Organization_Scenarios@5b8dfcc1]" started-at="2025-07-31T15:34:11 IST" name="closeConParallel" finished-at="2025-07-31T15:34:11 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeConParallel -->
+        <test-method is-config="true" signature="closeDatabaseConnection()[pri:0, instance:Organization_Module.Organization_Scenarios@5b8dfcc1]" started-at="2025-07-31T15:34:11 IST" name="closeDatabaseConnection" finished-at="2025-07-31T15:34:11 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDatabaseConnection -->
+      </class> <!-- Organization_Module.Organization_Scenarios -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
