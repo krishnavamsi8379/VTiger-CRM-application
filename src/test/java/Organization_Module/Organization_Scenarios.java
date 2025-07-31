@@ -233,11 +233,6 @@ public class Organization_Scenarios extends Base_Class  {
 		createOrgUtil.getOrgNameTF().sendKeys(org);
 		Listners.test.log(Status.INFO, "enter ORg name to ORg name text field");
 
-		/*
-		 * conversion of phone number String - long - String long
-		 * Ph_no=Long.parseLong(phno); DecimalFormat df = new DecimalFormat("0"); String
-		 * ph_no = df.format(Ph_no);
-		 */
 
 		// enter phone number
 		createOrgUtil.getPhoneNumTF().sendKeys(phno);
