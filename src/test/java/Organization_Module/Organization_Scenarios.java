@@ -80,14 +80,6 @@ public class Organization_Scenarios extends Base_Class  {
 		Reporter.log("create ORG pass",true);
 		Listners.test.log(Status.PASS, "create ORG pass");
 		
-
-		/*if (orgNameVal.contains(Org)) {
-
-			System.out.println("Create Org test pass");
-
-		} else {
-			System.out.println("Create org test faill ");
-		}*/
 		// identify org link
 		Listners.test.log(Status.INFO, "identify org link");
 		homeUtil.getOrg_link().click();
@@ -186,23 +178,6 @@ public class Organization_Scenarios extends Base_Class  {
 		Assert.assertEquals(typ_val,type);
 		Listners.test.log(Status.PASS, "Create Org with Type and Industry is pass-(Type DD)");
 		Reporter.log("Create Org with Type and Industry is pass-(Type DD)",true);
-		/*if (orgval.contains(org) ) {
-			System.out.println("Create Org with Type and Industry is pass-(Org name)");
-		} else {
-			System.out.println("Create Org with Type and Industry is fail-(Org name)");
-		}
-		
-		if (ind_val.contains(industry)) {
-			System.out.println("Create Org with Type and Industry is pass-(Industry DD)");
-		} else {
-			System.out.println("Create Org with Type and Industry is fail-(Industry DD)");
-		}
-		
-		if (typ_val.contains(type)) {
-			System.out.println("Create Org with Type and Industry is pass-(Type DD)");
-		} else {
-			System.out.println("Create Org with Type and Industry is fail-(Type DD)");
-		}*/
 
 		// click on org link
 		Listners.test.log(Status.INFO, "click on org link");
