@@ -35,7 +35,7 @@ import PomUtility.Organization_Pom_Page;
 
 @Listeners(Listners_Utilities.Listners.class)
 
-public class Contact_Scenarios extends Base_Class {
+public class Contact_ScenariosTest extends Base_Class {
 
 	//@Parameters("browser")
 	@Test(retryAnalyzer = Listners_Utilities.IRetryAnalyzerUtility.class)
@@ -101,7 +101,7 @@ public class Contact_Scenarios extends Base_Class {
 	
 	//@Parameters("browser")
 	@Test(groups = "regression",retryAnalyzer = Listners_Utilities.IRetryAnalyzerUtility.class)
-	public void CreateConWithSupportdate() throws IOException, InterruptedException {
+	public void CreateConWithSupportdateTest() throws IOException, InterruptedException {
 
 		// java utility
 		JavaUtility jutil = new JavaUtility();
@@ -202,7 +202,7 @@ public class Contact_Scenarios extends Base_Class {
 	//
 	//@Parameters("browser")
 	@Test(groups = "regression",retryAnalyzer = Listners_Utilities.IRetryAnalyzerUtility.class)
-	public void createNewOrgTest() throws InterruptedException, IOException {
+	public void createNewOrgConTest() throws InterruptedException, IOException {
 		// java utility
 		Listners.test.log(Status.INFO, "Java Utility to generate Random number");
 		JavaUtility jutil = new JavaUtility();
